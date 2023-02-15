@@ -7,8 +7,12 @@
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 }
+body{
+    background: url("/Users/batyrbekasel/Desktop/Web Dev/Lab 3/ToDo app/pngegg.png") no-repeat;
+    background-size: 100% ;
+}
 header{
-    background-color: rgb(236, 202, 10);
+    background-color:  #e4af33;
     height: 7vh;
 }
 header p{
@@ -41,7 +45,7 @@ header p{
     width: 75%;
     height: 35px;
     font-size: 15px;
-    border: 0.5px solid rgb(236, 202, 10);
+    border: 0.5px solid #e4af33;
     border-radius: 5px;
 }
 #newTask button{
@@ -51,7 +55,7 @@ header p{
     height: 35px;
     border-radius: 7px;
     margin-left: 25px;
-    background-color: rgb(236, 202, 10);
+    background-color: #e4af33;
     color: aliceblue;
     font-size: 15px;
     border: none;
@@ -60,7 +64,6 @@ header p{
 }
 
 #tasks{
-    background-color: white;
     padding: 10px 20px;
     margin-top: 4px;
     border-radius: 3px;
@@ -72,7 +75,7 @@ header p{
     margin-left: 20px;
     height: 45px;
     width:620px;
-    border: 0.5px solid rgb(236, 202, 10);
+    border: 0.5px solid #e4af33;
     margin-bottom: 8px;
     padding: 5px 10px;
     display: flex;
@@ -80,16 +83,18 @@ header p{
     justify-content: space-between;
     color: black;
     border-radius: 7px;
+    background-color: #e4af33;
 }
 
 .task button{
-    color: rgb(100, 10, 10);
-    background-color:white;
+    color: rgb(0, 0, 0);
+    background-color:#e4af33;
     width: 40px;
     height: 100%;
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .bee{
@@ -97,10 +102,4 @@ header p{
     width: 320px;
     top: 500px;
     transform: rotate(20deg);
-}
-.flower{
-    position: relative;
-    width: 250px;
-    left: 870px;
-    top: -100px;
 }
