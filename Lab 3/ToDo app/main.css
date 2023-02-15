@@ -19,14 +19,14 @@ header{
 header p{
     color: rgb(5, 5, 5);
     font-size: 30px;
-    padding-top: 13px;
+    padding-top: 9px;
     padding-left:70px ;
-    font-family:fantasy;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container{
     width: 54%;
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 170px;
     min-height: 150px;
 }
@@ -34,7 +34,7 @@ header p{
     font-size: 40px;
     padding-right: 500px;
     color:rgb(37, 36, 36);
-    font-family:fantasy;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #newTask{
@@ -46,7 +46,7 @@ header p{
     width: 75%;
     height: 35px;
     font-size: 15px;
-    border: 0.5px solid #e4af33;
+    border: 3px solid #e4af33;
     border-radius: 5px;
 }
 #newTask button{
@@ -73,7 +73,6 @@ header p{
 }
 
 .task{
-    margin-left: 20px;
     height: 45px;
     width:620px;
     border: 0.5px solid #e4af33;
@@ -85,6 +84,10 @@ header p{
     color: black;
     border-radius: 7px;
     background-color: #e4af33;
+}
+
+.task input:checked+span{
+    text-decoration: line-through;
 }
 
 .task button{
