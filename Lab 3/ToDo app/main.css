@@ -9,7 +9,8 @@
 }
 body{
     background: url("/Users/batyrbekasel/Desktop/Web Dev/Lab 3/ToDo app/pngegg.png") no-repeat;
-    background-size: 100% ;
+    background-size: 80% ;
+    background-position:100% -4% ;
 }
 header{
     background-color:  #e4af33;
@@ -26,7 +27,7 @@ header p{
     width: 54%;
     position: absolute;
     top: 25%;
-    left: 400px;
+    left: 170px;
     min-height: 150px;
 }
 .container p{
