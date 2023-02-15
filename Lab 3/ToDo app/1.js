@@ -3,6 +3,7 @@ function push(){
     document.getElementById('tasks').innerHTML += 
     `
         <div class="task">
+            <input type="checkbox" class="check">
             <span id="taskname">
                 ${input.value}
             </span>
