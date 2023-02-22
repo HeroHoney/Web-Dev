@@ -11,8 +11,8 @@ export class ProductListComponent {
   products = products;
 
   share(product: Product) {
-    const url=encodeURI(product.link);
-    window.open(`https://web.whatsapp.com://send?text=${url}`);
+    const url=product.link;
+    window.open("https://api.whatsapp.com/send?text=" + url);
   }
   onNotify() {
     window.alert('You will be notified when the product goes on sale');

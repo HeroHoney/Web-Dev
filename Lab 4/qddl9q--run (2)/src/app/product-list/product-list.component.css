@@ -1,4 +1,7 @@
-
+.photos{
+    max-height:200px;
+    max-width: 200px;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
