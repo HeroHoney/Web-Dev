@@ -14,7 +14,7 @@ export const products = [
     id: 1,
     name: 'Mont Blanc Montblanc Explorer',
     price: 31734,
-    description: 'тип: парфюмерная вода',
+    description: 'парфюмерная вода',
     ratings: 5,
     link:'https://kaspi.kz/shop/p/mont-blanc-montblanc-explorer-parfjumernaja-voda-edp-100-ml-17302013/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=EAIaIQobChMI2cK-36an_QIVZUCRBR3Aeg5TEAAYASAAEgKt9_D_BwE#!/item',
     imgl:'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hdd/h60/67663649570846/mont-blanc-montblanc-explorer-parfyumernaya-voda-edp-100-ml-17302013-2.jpg',
