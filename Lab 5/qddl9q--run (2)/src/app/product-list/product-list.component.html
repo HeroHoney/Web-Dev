@@ -18,8 +18,8 @@
   
   <button type="button" (click)="share(product)">
     Share Whatsapp
-  </button>
-  
+  </button><br>
+  <button type="button" (click)="pressLike(product)">Like {{product.likecnt}}</button>
   <app-product-alerts
     [product]="product" 
     (notify)="onNotify()">

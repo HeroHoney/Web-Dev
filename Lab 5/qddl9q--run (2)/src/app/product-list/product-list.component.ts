@@ -2,6 +2,8 @@ import { Component} from '@angular/core';
 
 import { Product, products } from '../products';
 
+import { categoryId } from 'src/app/product-items/product-items.component'; 
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -17,6 +19,12 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+  filteredProducts(){ 
+    return this.products.filter(c => c.id === categoryId); 
+  } 
+  pressLike(product: Product){ 
+    product.likecnt++;
+  } 
 }
 
 
