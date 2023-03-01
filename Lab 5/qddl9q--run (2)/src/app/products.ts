@@ -119,6 +119,116 @@ export const products = [
     imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h93/h43/34036696940574/avon-full-speed-75-ml-101784140-1-Container.jpg',
     categoryId:2,
     likecnt:0
+  },
+  {
+    id: 11,
+    name: 'MOSCHINO Funny туалетная вода EDT 100 мл',
+    price: 22995,
+    description: 'тип: парфюмерная вода',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/moschino-funny-tualetnaja-voda-edt-100-ml-17300760/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h2d/h48/31584660488222/moschino-funny-edt-100-ml-17300760-1.jpg',
+    categoryId:3,
+    likecnt:0
+  },
+  {
+    id: 12,
+    name: 'Avon Luck for Her парфюмерная вода EDP 50 мл',
+    price: 6170,
+    description: 'объем: 50 мл,для женщин',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/avon-luck-for-her-parfjumernaja-voda-edp-50-ml-101377040/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb2/hd1/34307011575838/avon-luck-for-her-parfyumernaya-voda-edp-50-ml-101377040-1.jpg',
+    categoryId:3,
+    likecnt:0
+  },
+  {
+    id: 13,
+    name: 'Avon PERCEIVE Dew парфюмерная вода EDP 50 мл',
+    price: 4349,
+    description: 'тип: парфюмерная вода EDP',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/avon-perceive-dew-parfjumernaja-voda-edp-50-ml-102058685/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h6c/h3c/44518973702174/avon-perceive-dew-parfyumernaya-voda-edp-50-ml-102058685-1.jpg',
+    categoryId:3,
+    likecnt:0
+  },
+  {
+    id: 14,
+    name: 'Avon Today парфюмерная вода EDP 100 мл',
+    price: 7979,
+    description: 'Est.1967 туалетная вода EDT 75 мл',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/avon-today-parfjumernaja-voda-edp-100-ml-102164090/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/img/m/p/h1d/hac/65815130538014.jpg?format=preview-medium',
+    categoryId:3,
+    likecnt:0
+  },
+  {
+    id: 15,
+    name: 'LANVIN Eclat dArpege парфюмерная вода EDP 100 мл',
+    price: 21000,
+    description: 'туалетная вода EDT 5 мл',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/lanvin-eclat-d-arpege-parfjumernaja-voda-edp-100-ml-17300765/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/he9/h7b/50482206769182/lanvin-eclat-darpege-edp-100-ml-17300765-1-Container.jpg',
+    categoryId:3,
+    likecnt:0
+  },
+  {
+    id: 16,
+    name: 'Al-Rayan Versace Man парфюмерное масло 10 мл',
+    price: 2000,
+    description: 'парфюмерная вода EDP 100 мл',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/al-rayan-versace-man-parfjumernoe-maslo-10-ml-106729910/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h61/hfb/62972769173534/arabskie-maslanye-duhi-versace-man-106729910-1.jpg',
+    categoryId:4,
+    likecnt:0
+  },
+  {
+    id: 17,
+    name: 'Antonio Banderas Black Seduction туалетная вода EDT 100 мл',
+    price: 11885,
+    description: ' туалетная вода EDT 100 мл',
+    ratings: 5,
+    link: 'https://kaspi.kz/shop/p/antonio-banderas-black-seduction-tualetnaja-voda-edt-100-ml-17301681/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8e/h14/49814020784158/antonio-banderas-black-seduction-edt-100-ml-17301681-1-Container.jpg',
+    categoryId:4,
+    likecnt:0
+  },
+  {
+    id: 18,
+    name: 'DOLCE&GABBANA 3 LImperatrice туалетная вода EDT 100 мл',
+    price:31995,
+    description: 'для нее парфюмерная вода EDP 50 мл',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/dolce-gabbana-3-l-imperatrice-tualetnaja-voda-edt-100-ml-102466699/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_performance_max_common&gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw_3LK3lypJoun4x40It2Snlmv88nIAtkEpAIvhh-Gq7HGv1IhzG3RoCQpYQAvD_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h08/h46/68076494880798/dolce-gabbana-l-imperatrice-tualetnaya-voda-edt-100-ml-102466699-1.jpg',
+    categoryId:4,
+    likecnt:0
+  },
+  {
+    id: 19,
+    name: 'Armaf Club de Nuit Intense туалетная вода EDT 100 мл',
+    price: 20612,
+    description: 'парфюмерное масло 10 мл',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/al-rayan-212-men-parfjumernoe-maslo-10-ml-106683752/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=EAIaIQobChMI2cK-36an_QIVZUCRBR3Aeg5TEAAYASAAEgKt9_D_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h41/ha0/33960203780126/armaf-club-de-nuit-intense-edp-100-ml-101095816-1-Container.jpg',
+    categoryId:4,
+    likecnt:0
+  },
+  {
+    id: 20,
+    name: 'Al-Rayan Black Afgano Oud парфюмерное масло 10 мл',
+    price: 2000,
+    description: 'парфюмерная вода EDP 75 мл',
+    ratings: 5,
+    link:'https://kaspi.kz/shop/p/avon-full-speed-parfjumernaja-voda-edp-75-ml-101784140/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=EAIaIQobChMI2cK-36an_QIVZUCRBR3Aeg5TEAAYASAAEgKt9_D_BwE#!/item',
+    imgl:'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h45/ha9/63014242517022/arabskie-maslanye-duhi-black-afgano-oud-106754597-1.jpg',
+    categoryId:4,
+    likecnt:0
   }
 ];
 
