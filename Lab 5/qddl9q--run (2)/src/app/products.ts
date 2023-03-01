@@ -62,7 +62,7 @@ export const products = [
     ratings: 5,
     link:'https://kaspi.kz/shop/p/versace-man-eau-fraiche-tualetnaja-voda-edt-5-ml-101745798/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=EAIaIQobChMI2cK-36an_QIVZUCRBR3Aeg5TEAAYASAAEgKt9_D_BwE#!/item',
     imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/hae/h87/31657331195934/versace-man-eau-fraiche-edt-100-ml-17300752-1-Container.jpg',
-    categoryId:2,
+    categoryId:1,
     likecnt:0
   },
   {

@@ -1,7 +1,5 @@
 import { Component} from '@angular/core';
-
 import { Product, products } from '../products';
-
 import { categoryId } from 'src/app/product-items/product-items.component'; 
 
 @Component({
@@ -11,6 +9,7 @@ import { categoryId } from 'src/app/product-items/product-items.component';
 })
 export class ProductListComponent {
   products = products;
+  deleted: number[]=[];
 
   share(product: Product) {
     const url=product.link;
@@ -20,13 +19,13 @@ export class ProductListComponent {
     window.alert('You will be notified when the product goes on sale');
   }
   filteredProducts(){ 
-    return this.products.filter(c => c.categoryId === categoryId); 
+    return this.products.filter(p => p.categoryId === categoryId && !this.deleted.find(deletedId=> deletedId === p.id)); 
   } 
   pressLike(product: Product){ 
     product.likecnt++;
   } 
-  deleteProduct(product: Product){
-    
+  deleteProduct(id: number){
+    this.deleted.push(id);
   }
 }
 

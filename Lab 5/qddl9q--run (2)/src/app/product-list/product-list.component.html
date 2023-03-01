@@ -1,5 +1,3 @@
-<h2>Products</h2>
-
 <div *ngFor="let product of filteredProducts()">
   <h3>
     <a
@@ -20,7 +18,7 @@
     Share Whatsapp
   </button><br>
   <button type="button" (click)="pressLike(product)">Like {{product.likecnt}}</button><br>
-  <button type="button" (click)="deleteProduct(product)">Delete</button>
+  <button type="button" (click)="deleteProduct(product.id)">Delete</button>
   <app-product-alerts
     [product]="product" 
     (notify)="onNotify()">
