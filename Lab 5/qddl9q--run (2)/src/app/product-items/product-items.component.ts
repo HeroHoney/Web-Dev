@@ -9,7 +9,7 @@ export var categoryId=0;
 export class ProductItemsComponent {
   category = category;
 
-  changeVal(id:number) {
-    categoryId=id;
+  openProducts(category:Category){
+    categoryId=category.id;
   }
 }

@@ -20,11 +20,14 @@ export class ProductListComponent {
     window.alert('You will be notified when the product goes on sale');
   }
   filteredProducts(){ 
-    return this.products.filter(c => c.id === categoryId); 
+    return this.products.filter(c => c.categoryId === categoryId); 
   } 
   pressLike(product: Product){ 
     product.likecnt++;
   } 
+  deleteProduct(product: Product){
+    
+  }
 }
 
 

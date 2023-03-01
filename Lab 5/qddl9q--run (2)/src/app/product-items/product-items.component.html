@@ -1,12 +1,10 @@
 <div *ngFor="let category of category">
     <h3>
       <a
-        [title]="category.name +' details'"
-        [routerLink]="['/category', category.id]">
+        [title]="category.name +' details'">
         {{ category.name }}
       </a>
-      <button [routerLink]="['/productList']" id = "buttonsOfCategory"
-        (click)="changeVal(category.id)">Products</button>
+      <button [routerLink]="['/productList']" id = "buttonsOfCategory" (click)="openProducts(category)">Products</button>
     </h3>
     <img class="photos" src="{{category.img}}">
     <p *ngIf="category.description">
