@@ -25,7 +25,7 @@ export const products = [
     id: 2,
     name: 'Avon INCANDESSENCE',
     price:4479,
-    description: 'объем: 50 мл,для женщин',
+    description: 'объем:50 мл,для женщин',
     ratings: 5,
     link:'https://kaspi.kz/shop/p/avon-incandessence-parfjumernaja-voda-edp-50-ml-102058597/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=EAIaIQobChMI2cK-36an_QIVZUCRBR3Aeg5TEAAYASAAEgKt9_D_BwE#!/item',
     imgl:'https://resources.cdn-kaspi.kz/medias/sys_master/images/images/h47/he3/44518783287326/avon-incandessence-parfyumernaya-voda-edp-50-ml-102058597-1.jpg',
