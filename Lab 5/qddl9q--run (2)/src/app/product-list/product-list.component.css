@@ -1,59 +1,52 @@
-.photos{
-    max-height:200px;
-    max-width: 200px;
-}
+ 
 .product {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px;
     padding: 10px;
+    margin-left: 450px;
     background-color: #f0f0f0;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
-  }
+    width: 500px;
+}
   
-  .product h3 {
+.product h3 {
     margin: 10px 0;
     font-size: 20px;
     text-align: center;
-  }
+}
   
-  .product a {
+.product a {
     text-decoration: none;
     color: #333;
-  }
+}
   
-  .product img.photos {
-    max-width: 100%;
-    height: auto;
+.product img.photos {
+    width: 200px;
+    height: 200px;
     margin: 10px 0;
-  }
+}
   
-  .product p {
+.product p {
     font-size: 16px;
     text-align: center;
     margin: 10px 0;
-  }
+}
   
-  .product button {
+.product button {
     display: block;
     margin: 10px 0;
-    padding: 10px 20px;
+    /* padding: 10px 10px; */
     background-color: #008CBA;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
   
-  .product button:hover {
+.product button:hover {
     background-color: #006B8F;
-  }
+}
   
-  
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
