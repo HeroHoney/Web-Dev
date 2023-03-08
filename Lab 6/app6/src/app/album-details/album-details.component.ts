@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
+import { AlbumsService } from '../albums.service';
 import { ALBUMS } from '../data';
 import { Album } from '../models';
 
@@ -10,7 +11,7 @@ import { Album } from '../models';
 })
 export class AlbumDetailsComponent implements OnInit{
   album: Album;
-  constructor(private route: ActivatedRoute){
+  constructor(private route: ActivatedRoute, private albumsService: AlbumsService){
    this.album={} as Album;
   }
 
@@ -19,7 +20,10 @@ export class AlbumDetailsComponent implements OnInit{
     this.route.paramMap.subscribe((params: ParamMap)=>
       {
         const id=Number(params.get('id'));
-        this.album=ALBUMS.find((album: Album)=> album.id === id) as Album;
+        // this.album=ALBUMS.find((album: Album)=> album.id === id) as Album;
+        this.albumsService.getAlbum(id).subscribe((album:Album)=>{
+          this.album=album;
+        })
       }
     )
   }

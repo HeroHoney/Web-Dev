@@ -10,17 +10,25 @@ import { Album } from '../models';
 })
 export class AlbumsComponent implements OnInit{
   albums: Album[];
+  newAlbum:Album;
    
-  constructor(private albumService: AlbumsService){
+  constructor(private albumsService: AlbumsService){
     this.albums=[];
+    this.newAlbum={} as Album;
   }
 
 
   ngOnInit(): void{
-    this.albumService.getAlbum().subscribe((albums)=>
-    {
+    this.getAlbums();
+  }
+
+  getAlbums(){
+    this.albumsService.getAlbums().subscribe((albums)=>{
       this.albums=albums;
-    }
-    )
+    })
+  }
+
+  addAlbum(){
+    this.albumsService.addAlbum(this.newAlbum);
   }
 }
