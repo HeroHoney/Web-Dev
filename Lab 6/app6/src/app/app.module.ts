@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { AlbumsComponent } from './albums/albums.component';
-import { AlbumDetailComponent } from './album-detail/album-detail.component';
+import { AlbumDetailsComponent } from './album-details/album-details.component';
 import { AlbumPhotosComponent } from './album-photos/album-photos.component';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { AlbumPhotosComponent } from './album-photos/album-photos.component';
     HomeComponent,
     AboutComponent,
     AlbumsComponent,
-    AlbumDetailComponent,
+    AlbumDetailsComponent,
     AlbumPhotosComponent
   ],
   imports: [
