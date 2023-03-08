@@ -1,5 +1,7 @@
 <ul>
     <li *ngFor="let album of albums">
-        {{album.name}} {{album.description}}
+        <a routerLink="/albums/{{album.id}}">
+            {{album.title}} 
+        </a>
     </li>
 </ul>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AlbumsService } from '../albums.service';
 import { ALBUMS } from '../data';
 import { Album } from '../models';
 
@@ -10,12 +11,16 @@ import { Album } from '../models';
 export class AlbumsComponent implements OnInit{
   albums: Album[];
    
-  constructor(){
+  constructor(private albumService: AlbumsService){
     this.albums=[];
   }
 
 
   ngOnInit(): void{
-    this.albums=ALBUMS
+    this.albumService.getAlbum().subscribe((albums)=>
+    {
+      this.albums=albums;
+    }
+    )
   }
 }

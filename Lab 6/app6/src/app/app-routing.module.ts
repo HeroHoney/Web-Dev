@@ -9,9 +9,8 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'album-details', component: AlbumDetailsComponent},
+  {path: 'albums/:id', component: AlbumDetailsComponent},
   {path: 'albums', component: AlbumsComponent},
-  {path: 'album-photos', component: AlbumPhotosComponent},
   {path: '',redirectTo: 'home' , pathMatch: 'full'}
 ];
 
