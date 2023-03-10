@@ -1,4 +1,8 @@
+<button (click)="returnBack()">Back</button>
 <div *ngIf="album">
     <h2>Album {{album.id}}</h2>
     <p>{{album.title}}</p>
 </div>
+<input class = "newTitle" type="text" placeholder="Type new title for album..." [(ngModel)]="newTitle">
+<br>
+<button class = "update" (click)="updateAlbum(album.id,album.userId)">Update</button>

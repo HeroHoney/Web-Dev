@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute} from '@angular/router';
 import { AlbumsService } from '../albums.service';
-import { ALBUMS } from '../data';
 import { Album } from '../models';
 
 @Component({
@@ -11,21 +10,37 @@ import { Album } from '../models';
 })
 export class AlbumDetailsComponent implements OnInit{
   album: Album;
+  newTitle:string;
   constructor(private route: ActivatedRoute, private albumsService: AlbumsService){
    this.album={} as Album;
+   this.newTitle = ""
   }
 
   ngOnInit(): void {
     // const id=Number(this.route.snapshot.paramMap.get('id'));
-    this.route.paramMap.subscribe((params: ParamMap)=>
-      {
-        const id=Number(params.get('id'));
-        // this.album=ALBUMS.find((album: Album)=> album.id === id) as Album;
-        this.albumsService.getAlbum(id).subscribe((album:Album)=>{
-          this.album=album;
-        })
-      }
-    )
+    this.route.paramMap.subscribe((params) => {
+      const id = Number(params.get('id'))
+      this.albumsService.getAlbum(id).subscribe((album) => {
+        this.album = album
+      })
+    })
   }
 
+  updateAlbum(id:number,userId:number){
+    if(this.newTitle!=""){
+      const updatedAlbum:Album = {
+      userId : userId,
+      id : id,
+      title : this.newTitle
+    }
+    this.albumsService.updateAlbum(updatedAlbum).subscribe((updatedAlbum) => {
+      this.album.title = this.newTitle
+      this.newTitle = ""
+    })
+    }else return
+  }
+
+  returnBack(){
+    window.history.back()
+  }
 }

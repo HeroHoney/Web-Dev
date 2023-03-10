@@ -22,4 +22,12 @@ export class AlbumsService {
   addAlbum(album:Album):Observable<Album>{
     return this.client.post<Album>('https://jsonplaceholder.typicode.com/albums',album);
   }
+
+  deleteAlbum(id: number){
+    return this.client.delete('https://jsonplaceholder.typicode.com/albums/${id}');
+  }
+
+  updateAlbum(updatedAlbum: Album){
+    return this.client.put('https://jsonplaceholder.typicode.com/albums/${updatedAlbum.id}',updatedAlbum)
+  }
 }
