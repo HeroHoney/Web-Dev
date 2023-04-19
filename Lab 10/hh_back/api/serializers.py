@@ -11,3 +11,4 @@ class VacancySerializer(serializers.ModelSerializer):
     class Meta:
         model = Vacancy
         fields = ('id','name','company')
+        
